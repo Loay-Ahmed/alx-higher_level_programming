@@ -38,5 +38,7 @@ class Square:
         """Prints a square with the charactar `#`,
         if size is 0 a blanck line will be printed"""
 
+        if self.__size == 0:
+            print()
         for i in range(self.__size):
             print("#" * self.__size)
